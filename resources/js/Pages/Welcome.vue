@@ -56,15 +56,15 @@ defineProps({
             </template>
         </div>
         <main class="w-full dark:text-white">
-            <header class="font-bold text-7xl text-center">
+            <header class="font-bold text-7xl h-20 text-center pb-4 mb-4">
                 <h1>{{ homePageContent.title }}</h1>
             </header>
 
-            <section >
+            <section class="h-20 text-center" >
                 {{ homePageContent.loginDescription }}
             </section>
 
-            <section>
+            <section class="h-20 text-center">
                 {{ homePageContent.appDescription }}
             </section>
         </main>
